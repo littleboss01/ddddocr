@@ -77,7 +77,7 @@ jobs:
           path: ./target/release/ddddocr.exe
 
   build-linux:
-    runs-on: ubuntu-latest
+    runs-on: centos-latest
 
     steps:
       - uses: actions/checkout@v4
