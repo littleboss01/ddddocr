@@ -80,12 +80,7 @@ jobs:
       strategy:
         matrix:
           container:
-          - 'debian:7'
-          - 'debian:testing'
-          - 'ubuntu:14.04'
-          - 'ubuntu:devel'
-          - 'centos:6'
-          - 'centos:latest'
+          - 'centos:9'
       runs-on: centos-latest
       container: ${{ matrix.container }}
   
